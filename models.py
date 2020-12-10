@@ -12,14 +12,11 @@ class Vehicle:
     - condition : état du véhicule True = démarré False = éteint
     """
 
-    def __init__(self, brand, color, km):
+    def __init__(self, brand, color):
         self._brand = brand
         self._color = color
         self._year = datetime.now().year
-        if km != 0:
-            self._km = km
-        else:
-            self._km = 0
+        self._km = 0
         self._condition = False
 
     def get_brand(self):

@@ -5,8 +5,8 @@
 
 import models
 
-v1 = models.Vehicle('Fiat', 'red', 0)
-v2 = models.Vehicle('Mercedes', 'black', 0)
+v1 = models.Vehicle('Fiat', 'red')
+v2 = models.Vehicle('Mercedes', 'black')
 h1 = models.Human("Foe", 18)
 g1 = models.Garage(12)
 
